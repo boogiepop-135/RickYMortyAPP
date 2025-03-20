@@ -21,92 +21,14 @@ Sigue estos pasos para descargar y ejecutar el proyecto:
 
    Navega al directorio del proyecto:
 
-bash
-
-Contraer
-
-Ajuste
-
-Copiar
 cd RickYMortyAPP
+
 Instala las dependencias:
-Asegúrate de estar en el directorio del proyecto y ejecuta:
 
-bash
+Asegúrate de estar en el directorio del proyecto y ejecuta: flutter pub get
 
-Contraer
-
-Ajuste
-
-Copiar
-flutter pub get
 Verifica los dispositivos disponibles:
-Asegúrate de que tienes un emulador Android o un navegador web (como Chrome) disponible:
 
-bash
+Asegúrate de que tienes un emulador Android o un navegador web (como Chrome) disponible: flutter devices
 
-Contraer
-
-Ajuste
-
-Copiar
-flutter devices
-Deberías ver una lista de dispositivos, por ejemplo:
-
-text
-
-Contraer
-
-Ajuste
-
-Copiar
-sdk gphone64 x86 64 (mobile) • emulator-5554 • android-x64    • Android 16 (API 36) (emulator)
-Chrome (web)                 • chrome        • web-javascript • Google Chrome 134.0.6998.90
-Si no ves un emulador Android, inicia uno:
-bash
-
-Contraer
-
-Ajuste
-
-Copiar
-flutter emulators --launch <emulator_id>
-Por ejemplo:
-bash
-
-Contraer
-
-Ajuste
-
-Copiar
-flutter emulators --launch sdk_gphone64_x86_64
-Ejecuta la aplicación:
-
-Para ejecutar en un emulador Android:
-bash
-
-Contraer
-
-Ajuste
-
-Copiar
-flutter run -d <device_id>
-Por ejemplo:
-bash
-
-Contraer
-
-Ajuste
-
-Copiar
-flutter run -d emulator-5554
-Para ejecutar en Chrome (web):
-bash
-
-Contraer
-
-Ajuste
-
-Copiar
-flutter run -d chrome
-La app se compilará y se ejecutará en el dispositivo seleccionado. Si hay múltiples dispositivos conectados, Flutter te pedirá que elijas uno.
+ara ejecutar en Chrome (web):flutter run -d chrome
