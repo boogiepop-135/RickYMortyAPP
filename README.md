@@ -1,4 +1,5 @@
-# RickYMortyAPP
+# RickYMortyAPP 
+mi video de explicacion: https://youtu.be/A8QP-y0Mqfc
 
 ## Introducción
 Hola, he creado esta sencilla aplicación con el lenguaje Dart. Ya manejo JavaScript y Python, por lo que empecé haciendo una lista de características de Python a Dart, como nombrar variables, loops, arreglos, operadores numéricos, etc. Antes ya había hecho consumo de APIs, pero usé React para hacer un blog de Star Wars.
